@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj": {}
+    "C:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj": {
+    "C:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj",
+        "projectUniqueName": "C:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj",
         "projectName": "dotnet-rpg",
-        "projectPath": "c:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj",
+        "projectPath": "C:\\Users\\Indra\\source\\repos\\dotnet-rpg\\dotnet-rpg.csproj",
         "packagesPath": "C:\\Users\\Indra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Indra\\source\\repos\\dotnet-rpg\\obj\\",
+        "outputPath": "C:\\Users\\Indra\\source\\repos\\dotnet-rpg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Indra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
